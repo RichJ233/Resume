@@ -30,7 +30,7 @@ body {
  * ------------------------------------------------- */
 .container .side {
   position: absolute;
-  width: 20rem;
+  width: 23rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 20px #bbb;
@@ -42,8 +42,8 @@ body {
     .container .side .me .portrait {
       margin: 0 auto;
       margin-bottom: 1rem;
-      width: 8rem;
-      height: 8rem;
+      width: 12.5rem;
+      height: 12.5rem;
       overflow: hidden;
       position: relative; }
       .container .side .me .portrait .loading {
@@ -99,11 +99,11 @@ body {
     width: 60%; }
 .container .main {
   position: relative;
-  margin-left: 22rem;
+  margin-left: 25rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 20px #bbb;
-  width: 755px;
+  width: 855px;
   box-sizing: border-box;
   padding: 1rem; }
   .container .main .info-unit ul {
@@ -128,6 +128,46 @@ body {
         margin: 0; }
       .container .main .info-unit ul li .info-content .fa {
         font-size: 1em; }
+
+.container .right {
+    position: absolute;
+    margin-left: 80rem;
+    margin-top: -133rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #bbb;
+    width: 23rem;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+    .container .right .info-unit ul {
+    box-sizing: border-box;
+    padding-left: 1.2rem;
+    padding-right: 0.8rem;
+    }
+    .container .right .info-unit ul li {
+        margin-bottom: 1rem;
+        list-style: disc;
+    }
+    .container .right .info-unit ul li h3 .link {
+        font-size: .5rem;
+        border: 1px solid #4db6ac;
+        padding: 1px 3px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        margin-left: .5rem;
+    }
+    .container .right .info-unit ul li h3 time {
+        text-align: right;
+        float: right;
+    }
+    .container .right .info-unit ul li .info-content li {
+        list-style: circle;
+        margin: 0;
+    }
+    .container .right .info-unit ul li .info-content .fa {
+        font-size: 1em;
+    }
 
 /* -------------------------------------------------
  * 文档底部
